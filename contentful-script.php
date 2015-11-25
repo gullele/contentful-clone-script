@@ -9,7 +9,7 @@
  * loss or unexpected dataloss or update or whatever related to data breakage, data loss, financial or 
  * moral or anything that can happen using this script.
  */
-class contentfulStuff
+class ContentfulStuff
 {
 	//access token for reading from the source
 	private $source_access_token;
@@ -224,5 +224,5 @@ class contentfulStuff
 	}
 }
 
-$contentful = new contentfulStuff();
+$contentful = new ContentfulStuff();
 //space cloning can be performed first by cloning content type and then cloning the entries
